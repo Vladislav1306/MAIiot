@@ -11,7 +11,6 @@
 #define OLED_RESET -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-// Для подключения по аппаратному SPI (указываем только номер пина CS)
 #define PIN_CS 10 Adafruit_BMP280 bmp(PIN_CS);
 //константы
 const float l = 0.4;
